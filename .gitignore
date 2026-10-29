@@ -1,0 +1,17 @@
+# build output
+build/
+test/build/
+*.elf
+*.bin
+*.map
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# python (tools used to read the handout / install a host compiler)
+__pycache__/
+.venv/
+venv/
